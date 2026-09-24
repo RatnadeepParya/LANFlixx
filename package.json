@@ -1,0 +1,44 @@
+{
+  "name": "lanflixx",
+  "version": "1.0.0",
+  "description": "High-performance self-hosted local network cinema streaming server with instant on-the-fly fast remuxing and idempotent mDNS hostname.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RatnadeepParya/LANFlixx.git"
+  },
+  "keywords": [
+    "lanflixx",
+    "streaming",
+    "lan",
+    "wifi-stream",
+    "media-server",
+    "ffmpeg",
+    "transcoding",
+    "mkv",
+    "self-hosted",
+    "video-stream",
+    "hls",
+    "vlc"
+  ],
+  "author": "Ratnadeep Parya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RatnadeepParya/LANFlixx/issues"
+  },
+  "homepage": "https://github.com/RatnadeepParya/LANFlixx#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "mime-types": "^3.0.2",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
